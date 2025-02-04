@@ -26,7 +26,7 @@ You can download the model by clicking on the download icon or LFS red icon or b
 
 Now click on the download icon to download this model.
 
-The model need to be supported on the inference server as we are using llama-cpp you need a model supported on this, so check: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+The model need to be supported on the inference server as we are using llama-cpp (which is a C++ implementation of the LLaMA inference engine by Facebook's Meta, designed for local hardware inference with minimal memory usage) you need a model supported on this, so check: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
 
 Note: Quantization is a technique used to reduce the computational and memory requirements of LLMs, typically after the model has been trained. It involves converting the model’s weights and sometimes activations from high-precision (e.g., 32-bit floating point) to lower-precision formats (e.g., 8-bit integers). 
 This process can significantly improve the efficiency of model deployment, especially in resource-constrained environments.
