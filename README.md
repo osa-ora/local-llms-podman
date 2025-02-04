@@ -39,7 +39,7 @@ Once it is deployed, go to playground and create a new playground using that mod
 <img width="1194" alt="Screenshot 2025-02-04 at 12 02 40 PM" src="https://github.com/user-attachments/assets/d88f5687-d6cc-44c0-8b49-b0701e5c930b" />
 
 ### 4) Test/Chat with the Model:
-Use the playground to chat with the model:
+Use the playground to chat with the model: let's type "Tennis Elbow" with a typo to see the model reasoning "what is tennis elow ?"
 
 <img width="1212" alt="Screenshot 2025-02-04 at 12 03 19 PM" src="https://github.com/user-attachments/assets/c7194aff-d24b-4f93-9e42-2ec72ca6f851" />
 
