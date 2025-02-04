@@ -16,11 +16,21 @@ Let's take an example DeepSeek model.
 
 Go to "Files & Versions" sections, and click on one of these models:
 
+<img width="1267" alt="Screenshot 2025-02-04 at 12 27 25 PM" src="https://github.com/user-attachments/assets/4f0b0e04-91cf-453f-99cd-fa2acf4c2221" />
+
+  
+You can download the model by clicking on the download icon or LFS red icon or by clicking on the model name to open its details:
+
 <img width="931" alt="Screenshot 2025-02-04 at 11 51 38 AM" src="https://github.com/user-attachments/assets/b0fbd114-cbea-4565-97da-55cc5a976614" />
+  
 
 Now click on the download icon to download this model.
 
 The model need to be supported on the inference server as we are using llama-cpp you need a model supported on this, so check: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+
+Note: Quantization is a technique used to reduce the computational and memory requirements of LLMs, typically after the model has been trained. It involves converting the model’s weights and sometimes activations from high-precision (e.g., 32-bit floating point) to lower-precision formats (e.g., 8-bit integers). 
+This process can significantly improve the efficiency of model deployment, especially in resource-constrained environments.
+This process can reduce the size of the model by 50-75% or more, allowing LLMs to run on laptops or desktops. The most common format is GGUF (General GPU-CPU Unified Format) which compress the weights up to 4-bit integers.
 
 ### 2) Import the Model:
 From Podman ==> Models ==> Catalog , then go to imprt model and select the model you just downloaded (gguf file) and the model will be imported in Podman AI catalog.
