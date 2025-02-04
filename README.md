@@ -32,6 +32,8 @@ Note: Quantization is a technique used to reduce the computational and memory re
 This process can significantly improve the efficiency of model deployment, especially in resource-constrained environments.
 This process can reduce the size of the model by 50-75% or more, allowing LLMs to run on laptops or desktops. The most common format is GGUF (General GPU-CPU Unified Format) which compress the weights up to 4-bit integers.
 
+We choose distilled models (smaller parameter size) which is much more smaller and it already got the needed skills from the original LLM.
+
 ### 2) Import the Model:
 From Podman ==> Models ==> Catalog , then go to imprt model and select the model you just downloaded (gguf file) and the model will be imported in Podman AI catalog.
 
