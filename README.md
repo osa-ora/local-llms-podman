@@ -20,6 +20,8 @@ Go to "Files & Versions" sections, and click on one of these models:
 
 Now click on the download icon to download this model.
 
+The model need to be supported on the inference server as we are using llama-cpp you need a model supported on this, so check: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+
 ### 2) Import the Model:
 From Podman ==> Models ==> Catalog , then go to imprt model and select the model you just downloaded (gguf file) and the model will be imported in Podman AI catalog.
 
