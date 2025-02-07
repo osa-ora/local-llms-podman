@@ -1,8 +1,8 @@
 # Deploy Local LLMs using Podman Desktop AI Lab
 
 Guide on how to Deploy Local LLM Models 
-
-Podman for Desktop has an AI Lab plugins that let's you deploy some models from the predefine model catalgs.
+As you know Podman for Desktop is one of the best Free & Open Source Tool for Containers & Kubernetes, which enables developers to play with containers.
+Podman for Desktop has an AI plugin called AI Lab plugins that let's you work with Large Language Models (LLMs) on your local machine. It has a predefined catalog of models where you can download any, deploy and create a playground to interact with that model.
 
 <img width="1494" alt="Screenshot 2025-02-04 at 11 47 38 AM" src="https://github.com/user-attachments/assets/d84a76bf-4363-42f1-8f4f-795dbbb54579" />
 
