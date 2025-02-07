@@ -1,4 +1,4 @@
-# Deploy Local LLMs using Podman Desktop AI Lab
+# Deploy LLMs Locally using Podman Desktop "AI Lab" plugin
 
 Guide on how to Deploy Local LLM Models 
 As you know Podman for Desktop is one of the best Free & Open Source Tool for Containers & Kubernetes, which enables developers to play with containers.
