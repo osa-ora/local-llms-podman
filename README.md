@@ -1,16 +1,20 @@
-# Deploy LLMs Locally using Podman Desktop "AI Lab" plugin
+# Deploy LLMs on your machine using Podman Desktop "AI Lab" plugin
+---
 
-Guide on how to Deploy Local LLM Models 
-As you know Podman for Desktop is one of the best Free & Open Source Tool for Containers & Kubernetes, which enables developers to play with containers.
-Podman for Desktop has an AI plugin called AI Lab plugins that let's you work with Large Language Models (LLMs) on your local machine. It has a predefined catalog of models where you can download any, deploy and create a playground to interact with that model.
+Podman for Desktop (🔗 https://podman-desktop.io/) is one best Free & Open Source Tool for Containers & Kubernetes, which enables developers to play with containers.
+Podman for Desktop has an AI plugin called AI Lab plugins that let's you work with Large Language Models (LLMs) on your local machine. It has a predefined catalog of models where you can download any of them, deploy and create a playground to interact with.
 
 <img width="1494" alt="Screenshot 2025-02-04 at 11 47 38 AM" src="https://github.com/user-attachments/assets/d84a76bf-4363-42f1-8f4f-795dbbb54579" />
 
 In case the model is not there, you can simply download it, import it and deploy it.
 
-Let's take an example DeepSeek model.
+Let's take an example DeepSeek model, assuming that you already downloaded and configured Podman Desktop and its AI Lab plugin and started the podman machine.
 
-### 1) Find and Download the Model: let's first find optimized i.e. quantized model in HuggingFace (.gguf) , for example: https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF
+---
+
+### 1) Find and Download the Model: 
+
+Let's first find optimized (i.e. quantized) model in HuggingFace (.gguf) , for example: https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF
 
 <img width="941" alt="Screenshot 2025-02-04 at 11 50 48 AM" src="https://github.com/user-attachments/assets/72aec2b1-eca0-4131-93cd-e4eb1db99d2d" />
 
@@ -34,8 +38,11 @@ This process can reduce the size of the model by 50-75% or more, allowing LLMs t
 
 We choose distilled models (smaller parameter size) which is much more smaller and it already got the needed skills from the original LLM.
 
+---
+
 ### 2) Import the Model:
-From Podman ==> Models ==> Catalog , then go to imprt model and select the model you just downloaded (gguf file) and the model will be imported in Podman AI catalog.
+
+From Podman → Models → Catalog , then go to "Import Model" and select the model you just downloaded (gguf file) and the model will be imported in Podman AI catalog. (note: this is reference, you need to keep the model file in the same location).
 
 <img width="1206" alt="Screenshot 2025-02-04 at 11 59 11 AM" src="https://github.com/user-attachments/assets/12fef04e-8daa-4a5a-bf7d-e5fbd4a42b5e" />
 
@@ -43,8 +50,11 @@ Now, the model will be available in the catalog for deployment.
 
 <img width="1211" alt="Screenshot 2025-02-04 at 11 59 50 AM" src="https://github.com/user-attachments/assets/f7893e9c-99d8-4054-a5aa-1491954533b0" />
 
+---
+
 ### 3) Deploy the Model:
-Create a service for that model:
+
+Create a service for that model, this will deploy the model im the serving container/
 
 <img width="1213" alt="Screenshot 2025-02-04 at 12 00 52 PM" src="https://github.com/user-attachments/assets/ab55bc03-12d3-4ba0-aabd-3794d9ddfda3" />
 
@@ -52,11 +62,15 @@ Once it is deployed, go to playground and create a new playground using that mod
 
 <img width="1194" alt="Screenshot 2025-02-04 at 12 02 40 PM" src="https://github.com/user-attachments/assets/d88f5687-d6cc-44c0-8b49-b0701e5c930b" />
 
+---
+
 ### 4) Test/Chat with the Model:
+
 Use the playground to chat with the model: let's type "Tennis Elbow" with a typo to see the model reasoning "what is tennis elow ?"
 
 <img width="1212" alt="Screenshot 2025-02-04 at 12 03 19 PM" src="https://github.com/user-attachments/assets/c7194aff-d24b-4f93-9e42-2ec72ca6f851" />
 
+Note: if you hit the max tokens, you can either delete the playground and create a new one.
 
 
 
