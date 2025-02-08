@@ -1,6 +1,8 @@
 # Deploy LLMs on your machine using Podman Desktop "AI Lab" plugin
----
 
+In this tutorial we will use the Podman desktop and its plugin "AI Lab" to deploy and interact with DeepSeek model, in the other tutorial: https://github.com/osa-ora/local-llms-podman/blob/main/bee-agent/readme.md you can see how to use the DeepSeek model in Bee Agent Stack using both the Podman compose and Ollama.
+
+---
 Podman for Desktop (🔗 https://podman-desktop.io/) is one best Free & Open Source Tool for Containers & Kubernetes, which enables developers to play with containers.
 Podman for Desktop has an AI plugin called AI Lab plugins that let's you work with Large Language Models (LLMs) on your local machine. It has a predefined catalog of models where you can download any of them, deploy and create a playground to interact with.
 
