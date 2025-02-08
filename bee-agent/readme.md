@@ -23,6 +23,7 @@ Once install you can download any models you want to use using:
    ollama pull deepseek-r1:8b
    ollama pull granite3.1-dense:8b
    ollama list //to view the downloaded models
+   ollama rm granite3.1-dense:8b // to delete any model, just rm the model_name
 ```
 
 You can chat to any of these models using the following command. (Note: Control+D to stop and exit the interactive mode).
