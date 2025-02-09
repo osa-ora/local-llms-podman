@@ -12,6 +12,8 @@ In this tutorial we will deploy the LLMs using Ollama in particular the Deep See
 <img width="1484" alt="Screenshot 2025-02-09 at 11 31 27 AM" src="https://github.com/user-attachments/assets/9809ae2e-9761-4609-80b7-6052eb0587a0" />
 
 3) Select the best model that fits your machine specifications
+   
+You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 
 <img width="792" alt="Screenshot 2025-02-09 at 11 33 16 AM" src="https://github.com/user-attachments/assets/4cd0d64e-75a6-4d61-9491-a17d460f2232" />
 
