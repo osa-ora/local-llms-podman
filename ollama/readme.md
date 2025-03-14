@@ -100,5 +100,20 @@ You may configure co-pilot as well.
 
 You can pick any other client or community project from the full list on ollama: [https://github.com/ollama/ollama](https://github.com/ollama/ollama?tab=readme-ov-file#web--desktop)
 
+9) Let's now install AnyThingLLM: https://anythingllm.com/
+
+<img width="1469" alt="Screenshot 2025-03-14 at 7 56 41 PM" src="https://github.com/user-attachments/assets/99f397a0-cde5-4a33-815e-35734f3407b2" />
+
+    
+10) Configure it to use Local Ollama DeepSeek model or any other model.
+
+<img width="1255" alt="Screenshot 2025-03-14 at 7 51 58 PM" src="https://github.com/user-attachments/assets/5e937c57-3eba-46d9-a940-4ac10295a1c8" />
+
+<img width="801" alt="Screenshot 2025-03-14 at 7 52 25 PM" src="https://github.com/user-attachments/assets/ae998177-d4fb-4c68-8a44-e434a8949644" />
+
+<img width="1370" alt="Screenshot 2025-03-14 at 7 55 46 PM" src="https://github.com/user-attachments/assets/ed62d06d-4b5e-466f-8f44-688594e687de" />
+
+
+
 Now you have a full local experience for using LLMs on your local laptop.
 
