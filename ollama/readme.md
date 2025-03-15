@@ -1,5 +1,13 @@
-# Deploy LLMs on your machine using Ollama
+# Using Ollama for local LLMs
+
+In this tutorial we will cover the following sections:
+- Deploy LLMs on your local machine using Ollama
+- Using Ollama Chat & APIs
+- Using Ollama Community Integrations
+- Using AnythingLLM with Ollama
+- Building a local Co-Pilot in VSC using Ollama
 ---
+## Deploy LLMs on your machine using Ollama
 
 In this tutorial we will deploy the LLMs using Ollama in particular the Deep Seek model in our local laptop.
 
@@ -25,8 +33,7 @@ You should have at least 8 GB of RAM available to run the 7B models, 16 GB to ru
    ollama rm llama3.2 // to delete any downloaded model, just rm the model_name
 ```
 
-# Chatting & API calls using Ollama
----
+## Chatting & API calls using Ollama
 
 1) You can chat to any of these models using the ollama run command. 
 
@@ -85,8 +92,7 @@ curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json"
 
 ``` 
 
-# Using Community integrations with Ollama
----
+## Using Community integrations with Ollama
 
 You can pick from Community integrations any tool to use with.
 
@@ -110,8 +116,7 @@ You may configure co-pilot as well.
 
 You can pick any other client or community project from the full list on ollama: [https://github.com/ollama/ollama](https://github.com/ollama/ollama?tab=readme-ov-file#web--desktop)
 
-# Using AnythingLLM with Ollama
----
+## Using AnythingLLM with Ollama
 
 AnythingLLM Desktop ships with everything you need to leverage AI locally with no setup or code.
 
@@ -128,8 +133,7 @@ AnythingLLM Desktop ships with everything you need to leverage AI locally with n
 
 <img width="1370" alt="Screenshot 2025-03-14 at 7 55 46 PM" src="https://github.com/user-attachments/assets/ed62d06d-4b5e-466f-8f44-688594e687de" />
 
-# Building a local Co-Pilot with Ollama
----
+## Building a local Co-Pilot with Ollama
 
 1) Install Visual Studio Code plugin CodeGPT from the extension section of Visual Studio Code.
 
