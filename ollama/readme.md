@@ -25,7 +25,10 @@ You should have at least 8 GB of RAM available to run the 7B models, 16 GB to ru
    ollama rm llama3.2 // to delete any downloaded model, just rm the model_name
 ```
 
-5) You can chat to any of these models using the ollama run command. 
+# Chatting & API calls using Ollama
+---
+
+1) You can chat to any of these models using the ollama run command. 
 
 ```
   ollama run deepseek-r1:8b
@@ -35,7 +38,7 @@ You should have at least 8 GB of RAM available to run the 7B models, 16 GB to ru
 
 Note: Control+D to stop and exit the interactive chat.
 
-6) You can use the local REST APIs for interaction with the ollama models as following:
+2) You can use the local REST APIs for interaction with the ollama models as following:
 ```
 ollama serve //if ollama is not working ...
 
