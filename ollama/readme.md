@@ -82,9 +82,16 @@ curl -X POST http://localhost:11434/api/chat -H "Content-Type: application/json"
 
 ``` 
 
-7) Let's now install a bette user experience chatbox, download ChatBox from here: https://chatboxai.app/en#download
+# Using Community integrations with Ollama
+---
 
-8) Run the application and configure it to use the Ollama as following:
+You can pick from Community integrations any tool to use with.
+
+https://github.com/ollama/ollama?tab=readme-ov-file#community-integrations
+
+1) Let's now install a bette user experience chatbox, download ChatBox from here: https://chatboxai.app/en#download
+
+2) Run the application and configure it to use the Ollama as following:
 
 <img width="592" alt="Screenshot 2025-02-24 at 10 05 43 AM" src="https://github.com/user-attachments/assets/2231775e-3b7d-41ee-979f-9163b036d9b0" />
 
@@ -100,12 +107,17 @@ You may configure co-pilot as well.
 
 You can pick any other client or community project from the full list on ollama: [https://github.com/ollama/ollama](https://github.com/ollama/ollama?tab=readme-ov-file#web--desktop)
 
-9) Let's now install AnyThingLLM: https://anythingllm.com/
+# Using AnythingLLM with Ollama
+---
+
+AnythingLLM Desktop ships with everything you need to leverage AI locally with no setup or code.
+
+1) Download & Install AnyThingLLM: https://anythingllm.com/
 
 <img width="1469" alt="Screenshot 2025-03-14 at 7 56 41 PM" src="https://github.com/user-attachments/assets/99f397a0-cde5-4a33-815e-35734f3407b2" />
 
     
-10) Configure it to use Local Ollama DeepSeek model or any other model.
+2) Run it and go through the wizard to configure it to use Local Ollama DeepSeek model or any other ollama model.
 
 <img width="1255" alt="Screenshot 2025-03-14 at 7 51 58 PM" src="https://github.com/user-attachments/assets/5e937c57-3eba-46d9-a940-4ac10295a1c8" />
 
@@ -113,7 +125,36 @@ You can pick any other client or community project from the full list on ollama:
 
 <img width="1370" alt="Screenshot 2025-03-14 at 7 55 46 PM" src="https://github.com/user-attachments/assets/ed62d06d-4b5e-466f-8f44-688594e687de" />
 
+# Building a local Co-Pilot with Ollama
+---
 
+1) Install Visual Studio Code plugin CodeGPT from the extension section of Visual Studio Code.
+
+<img width="1147" alt="Screenshot 2025-03-15 at 12 53 53 PM" src="https://github.com/user-attachments/assets/16729ec9-8d09-4390-bc5d-af42f230840f" />
+
+2) Install Ollama code model e.g. deepseek-coder:6.7b
+
+```
+  ollama pull deepseek-coder:6.7b
+```
+
+3) Run the extension from the side menu
+
+<img width="57" alt="Screenshot 2025-03-15 at 12 54 51 PM" src="https://github.com/user-attachments/assets/96e207d4-a747-4087-9b55-424c4ac77674" />
+
+4) Configure it to use local ollama
+
+<img width="239" alt="Screenshot 2025-03-15 at 12 57 39 PM" src="https://github.com/user-attachments/assets/52803437-8498-4a4a-9e62-94129c55cb30" />
+
+Click on "View More"
+
+<img width="236" alt="Screenshot 2025-03-15 at 12 58 19 PM" src="https://github.com/user-attachments/assets/83ee1104-6657-4c4a-adeb-14b076d5d0f2" />
+
+Switch to Local LLMs and select the deepseek-coder:6.7b model or any other local model.
+
+<img width="301" alt="Screenshot 2025-03-15 at 1 00 07 PM" src="https://github.com/user-attachments/assets/ca769349-3bb8-4ba5-92a2-16d576c13ce2" />
+
+Now, you have a local co-pilot model using your local ollama models and you can switch to any other model easily from the drop down below the chatbox.
 
 Now you have a full local experience for using LLMs on your local laptop.
 
